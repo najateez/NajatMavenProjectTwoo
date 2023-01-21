@@ -10,7 +10,7 @@ public class Car {
 	}
 	public void setSigns(String[] signs) {
 		this.signs = signs;
-	}
+	} 
 	public String getSide() {
 		return side;
 	}

@@ -2,189 +2,178 @@ package com.najatmavenproject2;
 
 public class Translations {
 	
-	private String official;
-	private String common;
-	private Translations ara;
-	private Translations bre;
-	private Translations ces;
-	private Translations cym;
-	private Translations deu;
-	private Translations est;
-	private Translations fin;
-	private Translations fra;
-	private Translations hrv;
-	private Translations hun;
-	private Translations ita;
-	private Translations jpn;
-	private Translations kor;
-	private Translations nld;
-	private Translations per;
-	private Translations pol;
-	private Translations por;
-	private Translations rus;
-	private Translations slk;
-	private Translations spa;
-	private Translations swe;
-	private Translations tur;
-	private Translations urd;
-	private Translations zho;
+	private SubTranslations ara;
+	private SubTranslations bre;
+	private SubTranslations ces;
+	private SubTranslations cym;
+	private SubTranslations deu;
+	private SubTranslations est;
+	private SubTranslations fin;
+	private SubTranslations fra;
+	private SubTranslations hrv;
+	private SubTranslations hun;
+	private SubTranslations ita;
+	private SubTranslations jpn;
+	private SubTranslations kor;
+	private SubTranslations nld;
+	private SubTranslations per;
+	private SubTranslations pol;
+	private SubTranslations por;
+	private SubTranslations rus;
+	private SubTranslations slk;
+	private SubTranslations spa;
+	private SubTranslations swe;
+	private SubTranslations tur;
+	private SubTranslations urd;
+	private SubTranslations zho;
 	
-	public String getOfficial() {
-		return official;
-	}
-	public void setOfficial(String official) {
-		this.official = official;
-	}
-	public String getCommon() {
-		return common;
-	}
-	public void setCommon(String common) {
-		this.common = common;
-	}
-	public Translations getAra() {
+	public SubTranslations getAra() {
 		return ara;
 	}
-	public void setAra(Translations ara) {
+	public void setAra(SubTranslations ara) {
 		this.ara = ara;
 	}
-	public Translations getBre() {
+	public SubTranslations getBre() {
 		return bre;
 	}
-	public void setBre(Translations bre) {
+	public void setBre(SubTranslations bre) {
 		this.bre = bre;
 	}
-	public Translations getCes() {
+	public SubTranslations getCes() {
 		return ces;
 	}
-	public void setCes(Translations ces) {
+	public void setCes(SubTranslations ces) {
 		this.ces = ces;
 	}
-	public Translations getCym() {
+	public SubTranslations getCym() {
 		return cym;
 	}
-	public void setCym(Translations cym) {
+	public void setCym(SubTranslations cym) {
 		this.cym = cym;
 	}
-	public Translations getDeu() {
+	public SubTranslations getDeu() {
 		return deu;
 	}
-	public void setDeu(Translations deu) {
+	public void setDeu(SubTranslations deu) {
 		this.deu = deu;
 	}
-	public Translations getEst() {
+	public SubTranslations getEst() {
 		return est;
 	}
-	public void setEst(Translations est) {
+	public void setEst(SubTranslations est) {
 		this.est = est;
 	}
-	public Translations getFin() {
+	public SubTranslations getFin() {
 		return fin;
 	}
-	public void setFin(Translations fin) {
+	public void setFin(SubTranslations fin) {
 		this.fin = fin;
 	}
-	public Translations getFra() {
+	public SubTranslations getFra() {
 		return fra;
 	}
-	public void setFra(Translations fra) {
+	public void setFra(SubTranslations fra) {
 		this.fra = fra;
 	}
-	public Translations getHrv() {
+	public SubTranslations getHrv() {
 		return hrv;
 	}
-	public void setHrv(Translations hrv) {
+	public void setHrv(SubTranslations hrv) {
 		this.hrv = hrv;
 	}
-	public Translations getHun() {
+	public SubTranslations getHun() {
 		return hun;
 	}
-	public void setHun(Translations hun) {
+	public void setHun(SubTranslations hun) {
 		this.hun = hun;
 	}
-	public Translations getIta() {
+	public SubTranslations getIta() {
 		return ita;
 	}
-	public void setIta(Translations ita) {
+	public void setIta(SubTranslations ita) {
 		this.ita = ita;
 	}
-	public Translations getJpn() {
+	public SubTranslations getJpn() {
 		return jpn;
 	}
-	public void setJpn(Translations jpn) {
+	public void setJpn(SubTranslations jpn) {
 		this.jpn = jpn;
 	}
-	public Translations getKor() {
+	public SubTranslations getKor() {
 		return kor;
 	}
-	public void setKor(Translations kor) {
+	public void setKor(SubTranslations kor) {
 		this.kor = kor;
 	}
-	public Translations getNld() {
+	public SubTranslations getNld() {
 		return nld;
 	}
-	public void setNld(Translations nld) {
+	public void setNld(SubTranslations nld) {
 		this.nld = nld;
 	}
-	public Translations getPer() {
+	public SubTranslations getPer() {
 		return per;
 	}
-	public void setPer(Translations per) {
+	public void setPer(SubTranslations per) {
 		this.per = per;
 	}
-	public Translations getPol() {
+	public SubTranslations getPol() {
 		return pol;
 	}
-	public void setPol(Translations pol) {
+	public void setPol(SubTranslations pol) {
 		this.pol = pol;
 	}
-	public Translations getPor() {
+	public SubTranslations getPor() {
 		return por;
 	}
-	public void setPor(Translations por) {
+	public void setPor(SubTranslations por) {
 		this.por = por;
 	}
-	public Translations getRus() {
+	public SubTranslations getRus() {
 		return rus;
 	}
-	public void setRus(Translations rus) {
+	public void setRus(SubTranslations rus) {
 		this.rus = rus;
 	}
-	public Translations getSlk() {
+	public SubTranslations getSlk() {
 		return slk;
 	}
-	public void setSlk(Translations slk) {
+	public void setSlk(SubTranslations slk) {
 		this.slk = slk;
 	}
-	public Translations getSpa() {
+	public SubTranslations getSpa() {
 		return spa;
 	}
-	public void setSpa(Translations spa) {
+	public void setSpa(SubTranslations spa) {
 		this.spa = spa;
 	}
-	public Translations getSwe() {
+	public SubTranslations getSwe() {
 		return swe;
 	}
-	public void setSwe(Translations swe) {
+	public void setSwe(SubTranslations swe) {
 		this.swe = swe;
 	}
-	public Translations getTur() {
+	public SubTranslations getTur() {
 		return tur;
 	}
-	public void setTur(Translations tur) {
+	public void setTur(SubTranslations tur) {
 		this.tur = tur;
 	}
-	public Translations getUrd() {
+	public SubTranslations getUrd() {
 		return urd;
 	}
-	public void setUrd(Translations urd) {
+	public void setUrd(SubTranslations urd) {
 		this.urd = urd;
 	}
-	public Translations getZho() {
+	public SubTranslations getZho() {
 		return zho;
 	}
-	public void setZho(Translations zho) {
+	public void setZho(SubTranslations zho) {
 		this.zho = zho;
 	}
+	
+	
+	
 	
 
 

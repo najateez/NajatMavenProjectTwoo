@@ -18,7 +18,7 @@ public class Idd {
   }
   public void setSuffixes(String[] suffixes) {
 	this.suffixes = suffixes;
-  }
+  } 
 
   
 

@@ -1,6 +1,8 @@
 package com.najatmavenproject2;
 
-public class Xcd {
+public class SubCurrencies {
+	
+	//we created this class because in class currencies has inside it class and this class name change in every json. No fix name. so thats why we create this class.
 	
 	private String name;
 	private String symbol;
@@ -16,7 +18,7 @@ public class Xcd {
 	}
 	public void setSymbol(String symbol) {
 		this.symbol = symbol;
-	}
+	} 
 	
 	
 	
