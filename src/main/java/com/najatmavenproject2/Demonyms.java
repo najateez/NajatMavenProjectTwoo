@@ -2,30 +2,21 @@ package com.najatmavenproject2;
 
 public class Demonyms {
 	
-	/* demonyms i will remove this class because it need inside it there will be class eng and fra. eng is 
-	   already used in name class.
-	 */
+	private SubDemonyms eng;
+	private SubDemonyms fra;
 	
-	//private Eng eng;
-	private Fra fra;
-
-	
-/*	public Eng getEng() {
+	public SubDemonyms getEng() {
 		return eng;
 	}
-
-	public void setEng(Eng eng) {
+	public void setEng(SubDemonyms eng) {
 		this.eng = eng;
-	} */
-
-	public Fra getFra() {
+	}
+	public SubDemonyms getFra() {
 		return fra;
 	}
-
-	public void setFra(Fra fra) {
+	public void setFra(SubDemonyms fra) {
 		this.fra = fra;
-	} 
-	
+	}
 	
 	
 	

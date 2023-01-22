@@ -1,6 +1,6 @@
 package com.najatmavenproject2;
 
-public class Fra {
+public class SubDemonyms {
 	
 	private String f;
 	private String m;

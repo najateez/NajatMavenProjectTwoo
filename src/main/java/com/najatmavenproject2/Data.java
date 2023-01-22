@@ -41,7 +41,7 @@ public class Data {
 	private Translations translations;
 	private SubTranslations subtranslations;
 	private Demonyms demonyms;
-	private Fra fra;
+	private SubDemonyms subdemonyms;
 	private Maps maps;
 	private Car car;
 	private Flags flags;
@@ -270,12 +270,14 @@ public class Data {
 	public void setUtilities(Utilities utilities) {
 		this.utilities = utilities;
 	}
-	public Fra getFra() {
-		return fra;
+	public SubDemonyms getSubdemonyms() {
+		return subdemonyms;
 	}
-	public void setFra(Fra fra) {
-		this.fra = fra;
+	public void setSubdemonyms(SubDemonyms subdemonyms) {
+		this.subdemonyms = subdemonyms;
 	}
+	
+	
 	
 	
 

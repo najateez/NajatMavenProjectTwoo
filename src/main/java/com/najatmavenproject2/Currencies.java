@@ -2,7 +2,8 @@ package com.najatmavenproject2;
 
 public class Currencies {
 	
-	private SubCurrencies XCD;
+	// we create sub currencies because in class currencies has more than one class with different name in each json.
+	private SubCurrencies XCD; //class name
 	private SubCurrencies MYR;
 	private SubCurrencies EUR;
 	private SubCurrencies CKD;
@@ -83,8 +84,6 @@ public class Currencies {
 	private SubCurrencies OMR; 
 	private SubCurrencies WST;
 	private SubCurrencies BAM;
-	
-	
 	private SubCurrencies SZL;
 	private SubCurrencies PLN; 
 	private SubCurrencies KMF;
